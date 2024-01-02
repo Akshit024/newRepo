@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: #C2CFE0;
+} */
+.fonta{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.fontb{
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #e1deed;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+}
+#my-element {
+    background-color:#e1deed;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #my-element.scrolled {
+    background-color:#d6cfee
+  }
+.con{
+    display: flex;
+    width: 1100px;
+    height: 80px;
+    gap: 450px;
+}
+.nav-port{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+.port{
+    color:#695aa6;
+    font-size: 30px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    padding: 5px 20px 5px 20px;
+    background-color: #695aa6;
+}
+.a{
+    color: #444444;
+}
+.a:hover{
+    color: #16084d63;
+}
+.button:hover{
+    background-color: #5b5184;
+}
+/* done */
+.header{
+    display: flex;
+    justify-content: center;
+}
+.headercon{
+    /* background-color: pink; */
+    height: 720px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.name{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    font-size: 80px;
+    font-weight:bolder;
+    text-align: left;
+    color: #444444;
+}
+.down{
+    font-size: 100px;
+    font-weight:bolder;
+    text-align: left;
+    color: #212529;
+}
+.job-name{
+    font-size: 22px;
+    color: #444444;
+    font-weight:lighter;
+    letter-spacing: 6px;
+}
+.mywork{
+    margin-top: 30px;
+    border-radius: 30px;
+    width:100px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.section-con{
+    display: flex;
+    width:1100px;
+}
+.man-img{
+    height:400px;
+    width:400px;
+}
+.about{
+    margin-top: 50px;
+}
+
+.about-who{
+    color: #444444;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.about-me{
+    font-size: 40px;
+    color: #695aa6;
+    font-weight: bolder;
+}
+
+.about-myself{
+    margin-top: 20px;
+    color: #444444;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.cv{
+    margin-top: 40px;
+    height: 40px;
+    width: 130px;
+    color: #695aa6;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #695aa6;
+    background-color:#e1deed;
+}
+.cv:hover{
+    background-color: #695aa6;
+    color: #e1deed;
+    cursor: pointer;
+}
+.portfolio-section{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-div{
+    display: flex;
+    width: 1100px;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-subtitle {
+    display: flex;
+    justify-content: center;
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-project{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.portfolio-card{
+    height: 370px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@keyframes come-in {
+    0%{
+        transform: translateY(-150px);
+    }
+
+    100%{
+        transform: translateY(150px);
+    }
+}
+.portfolio-card:hover{
+    background-color:  rgba(255, 255, 255, 0.249) ;
+}
+.img-1{
+    background-image: url("image/folio-1.jpg");
+}
+.img-2{
+    background-image: url("image/folio-2.jpg");
+}
+.img-3{
+    background-image: url("image/folio-3.jpg");
+}
+.portfolio-card-caption{
+    display: flex;
+    flex-direction: column;
+}
+.he{
+    margin-left:30px ;
+    color: #695aa6;
+}
